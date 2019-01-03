@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="main-header">
+
+        </header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html"><img src=" images/meetup2.png " alt="Logo "></a>
+                    </li>
+                    <li><a href="index.html ">Home</a></li>
+                    <li><a href=" " class="current ">Dashboard</a></li>
+                    <li><a href=" ">Username</a></li>
+                    <li><a href=" ">Notification</a></li>
+                    <li><a href="sign-in.html ">Sign out</a></li>
+                    <li>
+                        <a href="user-profile.html"><img src="images/pat.jpg " alt="Logo "></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="left-side left-side-dashboard">
+            <h3>My Upcoming Meetups</h3>
+            <article>
+                <div class="my-meetup">
+                    <img src="images/estate.jpg" alt="Estate management Meetup">
+                    <h4 class="my-meetup-name">Estate Managers Meetup, Abuja</h4>
+                    <p class="meetup-info"><span>Location: Abuja</span><span class="members">Members: 16</span></p>
+                    <p class="meetup-info"><span>Next Meeting: January 20, 2019</span></p>
+                    <h5>Top Question Feed</h5>
+                    <div id="meet">
+                        <div class="question-details">
+                            <div class="quest-head">
+                                <h4>As a estate manager, what is your management style?</h4>
+                                <button type="button" class="btn btn-vote up">&blacktriangle;</button>
+                                <button type="button" class="btn btn-vote down">&blacktriangledown;</button>
+                            </div>
+                            <div class="comment">
+                                <input type="text" class="text">
+                                <button type="button" class="btn post">Post Comment</button>
+                            </div>
+                            <div class="view-comment">
+
+                            </div>
+
+                        </div>
+                        <!--End of first question-->
+
+                        <div class="question-details">
+                            <div class="quest-head">
+                                <h4>What do you see yourself doing in five years?</h4>
+                                <button type="button" class="btn btn-vote up">&blacktriangle;</button>
+                                <button type="button" class="btn btn-vote down">&blacktriangledown;</button>
+                            </div>
+                            <div class="comment">
+                                <input type="text" class="text">
+                                <button type="button" class="btn post">Post Comment</button>
+                            </div>
+                            <div class="view-comment">
+
+                            </div>
+
+                        </div>
+                        <!--End of second question-->
+
+                        <div class="question-details">
+                            <div class="quest-head">
+                                <h4>How do I avoid collection problems and evictions?</h4>
+                                <button type="button" class="btn btn-vote up">&blacktriangle;</button>
+                                <button type="button" class="btn btn-vote down">&blacktriangledown;</button>
+                            </div>
+                            <div class="comment">
+                                <input type="text" class="text">
+                                <button type="button" class="btn post">Post Comment</button>
+                            </div>
+                            <div class="view-comment">
+
+                            </div>
+
+                        </div>
+                        <!--End of third question-->
+                    </div>
+
+                    <div class="add-question">
+                        <button type="button" id="submit" class="btn btn-add">Add Question</button>
+                        <input type="text" id="input-question" value="add your question">
+                    </div>
+            </article>
+
+        </section>
+
+        <aside class="right-side">
+            <h3 id="current">Current Meetups</h3>
+            <div class="entry">
+                <a href="#">
+                    <figure class="fig"><img src="images/photography.jpeg" alt="Photography" />
+                        <figcaption>Photography</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="entry">
+                <a href="#">
+                    <figure class="fig"><img src="images/astronomy.jpeg" alt="Astronomy" />
+                        <figcaption>Astronomy</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="entry">
+                <a href="#">
+                    <figure class="fig"><img src="images/crypto.jpeg" alt="Cryptocurrency" />
+                        <figcaption>Cryptocurrency</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="entry">
+                <a href="#">
+                    <figure class="fig"><img src="images/entre.jpeg" alt="Entrepreneur" />
+                        <figcaption>Young Entrepreneur</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="entry">
+                <a href="#">
+                    <figure class="fig"><img src="images/chelsea.jpeg" alt="Chelsea" />
+                        <figcaption>Chelsea</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="entry">
+                <a href="#">
+                    <figure class="fig"><img src="images/naija2.jpeg" alt="Nigerian Politics" />
+                        <figcaption>Nigerian Politics Forum
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </aside>
+
+
+        <div class="clr"></div>
+        <footer>
+            Copyright &copy; 2018 created by Benaiah Enebeli
+        </footer>
+        </div>
+
+</body>
+
+</html>
