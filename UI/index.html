@@ -1,76 +1,90 @@
 <!doctype html>
-<!DOCTYPE html>
-<html>
+<html lang=''>
 <head>
-	<meta charset="UTF-8">
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="base.css">
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>Home</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			<h2 style="text-indent: -9999px; height: 150px" ></h2>
-			<nav>
-				<img src="images/meetup2.png" alt="Logo" width="40px" height="40px">
-				<ul>
-					<li><a href="" class="current">Home</a></li>
-					<li><a href="">About Us</a></li>
-					<li><a href="">Contact</a></li>
-					<li><a href="sign-in.html">Sign in</a></li>
-					<li><a href="">Help</a></li>
-				</ul>
-			</nav>
-		</header>
+  <header id='main-header'>
+    <ul>
+       <li class='active'><a href='#'>Home</a></li>
+       <li><a href='#'>Contact</a></li>
+       <li><a href='sign-in.html'>Sign In</a></li>
+    </ul>
+  </header>
+  <div class="">
+      <p id="about-us">
+        Meetup is about connecting people with something in common. From activities you love and hobbies you want to try, to ways you identify yourself and who you want to be, a Meetup group is a community. A community of people who come together because they
+        care about the same thing. Mountain climbers, first-time parents, aspiring circus performers, coders… you name it, there’s a good chance there’s a Meetup group for it
+      </p>
 
-		<div class="content">
-			<div id="info">
-				<p id="join-meetup">Join a Meetup</p>
-				<a href="sign-in.html"><button id="btn">Sign in</button> </a>
-			</div>
-		</div>
+      <div id="info">
+        <p id="join-meetup">Join a Meetup Today</p>
+        <a href="sign-in.html"><button id="btn">Sign in</button> </a>
+      </div>
 
-		<h1 id="current">Current Meetups</h1>
+      <h1 id="current">Current Meetups</h1>
 
-		<div class="view-meetups">
-			<div class="entry">
-				<a href="#"><figure class="fig"><img src="images/photography.jpeg" alt="Photography" />
-				<figcaption>Photography</figcaption>
-				</figure></a>
-			</div>
-			<div class="entry">
-				<a href="#"><figure class="fig"><img src="images/astronomy.jpeg" alt="Astronomy" />
-				<figcaption>Astronomy</figcaption>
-				</figure></a>
-			</div>
-			<div class="entry">
-				<a href="#"><figure class="fig"><img src="images/crypto.jpeg" alt="Cryptocurrency" />
-				<figcaption>Cryptocurrency</figcaption>
-				</figure></a>
-			</div>
-			<div class="entry">
-				<a href="#"><figure class="fig"><img src="images/entre.jpeg" alt="Entrepreneur" />
-				<figcaption>Young Entrepreneur</figcaption>
-				</figure></a>
-			</div>
-			<div class="entry">
-				<a href="#"><figure class="fig"><img src="images/chelsea.jpeg" alt="Chelsea" />
-				<figcaption>Chelsea</figcaption>
-				</figure></a>
-			</div>
-			<div class="entry">
-				<a href="#"><figure class="fig"><img src="images/naija2.jpeg" alt="Nigerian Politics" />
-				<figcaption>Nigerian Politics Forum 
-				</figcaption>
-				</figure></a>
-			</div>
-		</div>
-		
+      <div class="view-meetups">
+                <div class="entry">
+                    <a href="#">
+                        <figure class="fige"><img src="images/photography.jpeg" alt="Photography" />
+                            <figcaption class="name-meetup">Photography</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="entry">
+                    <a href="#">
+                        <figure class="fige"><img src="images/astronomy.jpeg" alt="Astronomy" />
+                            <figcaption class="name-meetup">Astronomy</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="entry">
+                    <a href="#">
+                        <figure class="fige"><img src="images/crypto.jpeg" alt="Cryptocurrency" />
+                            <figcaption class="name-meetup">Cryptocurrency</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="clr">
+
+                </div>
+                <div class="entry">
+                    <a href="#">
+                        <figure class="fige"><img src="images/entre.jpeg" alt="Entrepreneur" />
+                            <figcaption class="name-meetup">Young Entrepreneur</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="entry">
+                    <a href="#">
+                        <figure class="fige"><img src="images/chelsea.jpeg" alt="Chelsea" />
+                            <figcaption class="name-meetup">Chelsea</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="entry">
+                    <a href="#">
+                        <figure class="fige"><img src="images/naija2.jpeg" alt="Nigerian Politics" />
+                            <figcaption class="name-meetup">Nigerian Politics Forum
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="clr"></div>
+            </div>
+  </div>
 
 
-		<footer>
-			&copy; Meetup questioner created by Benaiah Enebeli
-		</footer>
-	</div>
 
+  <footer>
+    Copyright &copy; 2018 created by Benaiah Enebeli
+  </footer>
 </body>
-</html>
+<html>
